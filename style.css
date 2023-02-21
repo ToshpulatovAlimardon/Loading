@@ -24,8 +24,8 @@ section {
 }
     section .loader {
         position: relative;
-        width: 120px;
-        height: 120px;
+        width: 140px;
+        height: 140px;
     }
         section .loader span {
             position: absolute;
@@ -61,3 +61,24 @@ section {
                 transform: scale(0);
             }
         }
+
+@media screen and (max-width: 700px) {
+    section .loader {
+        width: 160px;
+        height: 160px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    section .loader {
+        width: 180px;
+        height: 180px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    section .loader {
+        width: 200px;
+        height: 200px;
+    }
+}
